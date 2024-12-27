@@ -1,0 +1,10 @@
+dynamic_rules/
+/target/
+/dataset/
+/fink-note/target/
+/flink-connector-packages/target/
+/flink-fraud-detection/target/
+/flink-fraud-detection/flink-job/target/
+/table-api-with-sql/target/
+/flink-clickhouse/target/
+/flink-18/target/

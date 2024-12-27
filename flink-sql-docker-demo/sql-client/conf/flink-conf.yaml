@@ -1,0 +1,7 @@
+jobmanager.rpc.address: jobmanager
+# 这两个配置不加的话，jobmanager 起不起来，会报如下的错误：
+# [ERROR] The execution result is empty.
+# [ERROR] Could not get JVM parameters and dynamic configurations properly.
+# 通过 google 查了好久才发现的。其实 sfn 的这两项也配置了。
+jobmanager.heap.size: 1024m
+taskmanager.heap.size: 1024m

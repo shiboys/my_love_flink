@@ -1,0 +1,13 @@
+{
+   "namespace":"com.swj.sensors.flink_study.statebackend.savepoint",
+   "type":"record",
+   "name":"Address",
+   "fields":[
+          {"name":"num","type":"int"},
+          {"name":"street","type":"string","default":"null"},
+          {"name":"city","type":"string","default":"null"},
+          {"name":"state","type":"string","default":"null"},
+          {"name":"zip","type":"string","default":"null"},
+          {"name":"appno","type":"string","default":"null"}
+    ]
+}
